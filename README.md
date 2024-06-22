@@ -13,8 +13,27 @@ Created a user-friendly news research tool designed for effortless information r
 - Interact with the LLM's (Chatgpt) by inputting queries and receiving answers along with source URLs.
 
 
+## Installation
 
-1.The web app will open in your browser.
+1. Install the required dependencies using pip:
+
+```bash
+  pip install -r requirements.txt
+```
+2.Set up your OpenAI API key by creating a .env file in the project root and adding your API
+
+```bash
+  OPENAI_API_KEY=your_api_key_here
+```
+## Usage/Examples
+
+1. Run the Streamlit app by executing:
+```bash
+streamlit run main.py
+
+```
+
+2.The web app will open in your browser.
 
 - On the sidebar, you can input URLs directly.
 
